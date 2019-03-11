@@ -5,3 +5,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
+
+# Radio
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.radio.aosp_usr_pref_sel=true
+
