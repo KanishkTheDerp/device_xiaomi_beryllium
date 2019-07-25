@@ -6,10 +6,10 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common EvoX-ify stuff.
+# Inherit some common Syberia stuff.
 TARGET_BOOT_ANIMATION_RES := 2160
 TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := syberia_beryllium
